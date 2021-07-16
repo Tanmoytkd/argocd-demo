@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: python-helloworld-server
     app.kubernetes.io/part-of: python-helloworld
   name: python-helloworld-server-nodeport
-  namespace: python-helloworld
+  namespace: default
 spec:
   ipFamilies:
   - IPv4
