@@ -23,7 +23,7 @@ spec:
     targetPort: 5000
     nodePort: 30010
   selector:
-    app.kubernetes.io/name: python-helloworld-server
+    app: python-helloworld
   sessionAffinity: None
   type: NodePort
 status:
